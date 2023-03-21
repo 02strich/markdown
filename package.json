@@ -1,8 +1,8 @@
 {
-  "name": "@readme/markdown",
+  "name": "02strich-markdown",
   "description": "ReadMe's React-based Markdown parser",
   "author": "Rafe Goldberg <rafe@readme.io>",
-  "version": "6.61.0",
+  "version": "1.0.0",
   "main": "dist/main.node.js",
   "browser": "dist/main.js",
   "files": [
@@ -17,7 +17,7 @@
     "prepare": "husky install",
     "pretest": "npm run lint",
     "prettier": "prettier --list-different --write \"./**/**.{js,jsx}\"",
-    "release": "npx semantic-release",
+    "release": "npx semantic-release --no-ci",
     "release.dry": "npx semantic-release --dry-run",
     "start": "webpack serve --config ./webpack.dev.js --open --mode development",
     "test": "jest --coverage --runInBand --testPathIgnorePatterns '__tests__/browser'",
@@ -113,7 +113,7 @@
   },
   "license": "MIT",
   "homepage": "https://rdmd.readme.io",
-  "repository": "https://github.com/readmeio/markdown",
+  "repository": "https://github.com/02strich/markdown",
   "prettier": "@readme/eslint-config/prettier",
   "bundlewatch": {
     "files": [
