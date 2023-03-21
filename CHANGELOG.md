@@ -1,6 +1,12 @@
 Changelog
 ===
 
+## Version 1.0.1
+
+### 🛠 Fixes & Updates
+
+* **deps:** update react to v17 ([5928f72](https://github.com/02strich/markdown/commit/5928f72de6ac1125fe5aaca059cd45cc2aab3169))
+
 ## Version 1.0.0
 
 ### ⚠ BREAKING CHANGES
