@@ -1,6 +1,12 @@
 Changelog
 ===
 
+## Version 1.0.2
+
+### 🛠 Fixes & Updates
+
+* **deps:** Remove no longer maintained trim package ([f40c695](https://github.com/02strich/markdown/commit/f40c695049194b229072cc2f554d72a9522cb032))
+
 ## Version 1.0.1
 
 ### 🛠 Fixes & Updates
